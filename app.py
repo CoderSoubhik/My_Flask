@@ -15,16 +15,16 @@ def handle_user_input(user_input):
         response = "Hello, User. I am programmed to follow your commands. I am always at your service"
     elif "developer details" in user_input:
         print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
-        response = "Hello, Harami Ashesh"
+        response = "This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik."
     elif "developer" in user_input:
         print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
-        response = "Hello, Harami Ashesh"
+        response = "This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik."
     elif "details" in user_input:
         print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
-        response = "Hello, Harami Ashesh"
+        response = "This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik."
     elif "team" in user_input:
         print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
-        response = "Hello, Harami Ashesh"
+        response = "This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik."
     elif "thank you" in user_input:
         print("Thank you.")
         response = "Thank you."
