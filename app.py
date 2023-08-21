@@ -13,7 +13,16 @@ def handle_user_input(user_input):
     elif "i am user" in user_input or "user" in user_input:
         print("Hello, User. I am programmed to follow your commands. I am always at your service")
         response = "Hello, User. I am programmed to follow your commands. I am always at your service"
-    elif "developer details" in user_input or "developer" in user_input or "details" in user_input "team details" in user_input or "team" in user_input:
+    elif "developer details" in user_input:
+        print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
+        response = "Hello, Harami Ashesh"
+    elif "developer" in user_input:
+        print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
+        response = "Hello, Harami Ashesh"
+    elif "details" in user_input:
+        print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
+        response = "Hello, Harami Ashesh"
+    elif "team" in user_input:
         print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
         response = "Hello, Harami Ashesh"
     elif "thank you" in user_input:
