@@ -1,0 +1,4 @@
+Flask
+PyAudio
+pyttsx3
+requests
