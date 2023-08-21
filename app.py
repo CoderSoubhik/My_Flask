@@ -7,6 +7,18 @@ def handle_user_input(user_input):
     if "hello" in user_input:
         print("Hello sir, how are you")
         response = "Hello sir, how are you"
+    elif "intro" in user_input:
+        print("Hello, I am Home AI, a personal home automation system, developed by team Clumsy Coders.")
+        response = "Hello, I am Home AI, a personal home automation system, developed by team Clumsy Coders."
+    elif "i am koulik" in user_input or "koulik" in user_input:
+        print("Hello, Bokachoda Koulik")
+        response = "Hello, Bokachoda Koulik"
+    elif "i am ashesh" in user_input or "ashesh" in user_input:
+        print("Hello, harami Ashesh")
+        response = "Hello, Harami Ashesh"
+    elif "i am anirban" in user_input or "anirban" in user_input:
+        print("Hello, harami Ashesh")
+        response = "Hello, Changra Anirban"
     elif "play" in user_input:
         video_url = "https://youtu.be/dQw4w9WgXcQ"
         webbrowser.open(video_url)
