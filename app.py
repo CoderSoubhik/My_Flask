@@ -34,7 +34,7 @@ def handle_user_input(user_input):
 
 @app.route('/process_input', methods=['GET'])
 def process_input():
-    user_input = request.args.get('user_input', '')
+    user_input = request.args.get('user_input', '').lower()
 
     if user_input.lower() == "exit":
         response = "Exiting"
