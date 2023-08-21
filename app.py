@@ -6,10 +6,10 @@ app = Flask(__name__)
 def handle_user_input(user_input):
     if "hello" in user_input:
         print("Hello sir, how are you")
-        response = "Greeting spoken"
+        response = "Hello sir, how are you"
     elif "play" in user_input:
         video_url = "https://youtu.be/dQw4w9WgXcQ"
-        play_video(video_url)
+        webbrowser.open(video_url)
         response = "Playing YouTube video"
     else:
         print("I don't understand.")
