@@ -10,15 +10,13 @@ def handle_user_input(user_input):
     elif "intro" in user_input:
         print("Hello, I am Home AI, a personal home automation system, developed by team Clumsy Coders.")
         response = "Hello, I am Home AI, a personal home automation system, developed by team Clumsy Coders."
-    elif "i am koulik" in user_input or "koulik" in user_input:
-        print("Hello, Bokachoda Koulik")
-        response = "Hello, Bokachoda Koulik"
-    elif "i am ashesh" in user_input or "ashesh" in user_input:
-        print("Hello, harami Ashesh")
+    elif "i am user" in user_input or "user" in user_input:
+        print("Hello, User. I am programmed to follow your commands. I am always at your service")
+        response = "Hello, User. I am programmed to follow your commands. I am always at your service"
+    elif "developer details" in user_input or "developer" in user_input or 
+         "details" in user_input "team details" in user_input or "team" in user_input:
+        print("This AI system is Developed by team Clumsy Coders. There is total 4 members in team. First Harami Ashesh, Second Bokachoda Koulik, Third changra Anirban and Fourth is Innocent Soubhik.")
         response = "Hello, Harami Ashesh"
-    elif "i am anirban" in user_input or "anirban" in user_input:
-        print("Hello, harami Ashesh")
-        response = "Hello, Changra Anirban"
     elif "thank you" in user_input:
         print("Thank you.")
         response = "Thank you."
