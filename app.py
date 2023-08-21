@@ -19,10 +19,13 @@ def handle_user_input(user_input):
     elif "i am anirban" in user_input or "anirban" in user_input:
         print("Hello, harami Ashesh")
         response = "Hello, Changra Anirban"
-    elif "play" in user_input:
-        video_url = "https://youtu.be/dQw4w9WgXcQ"
-        webbrowser.open(video_url)
-        response = "Playing YouTube video"
+    elif "thank you" in user_input:
+        print("Thank you.")
+        response = "Thank you."
+    #elif "play" in user_input:
+        #video_url = "https://youtu.be/dQw4w9WgXcQ"
+        #webbrowser.open(video_url)
+        #response = "Playing YouTube video"
     else:
         print("I don't understand.")
         response = "Command not recognized"
