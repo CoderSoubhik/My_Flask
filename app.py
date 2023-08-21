@@ -5,14 +5,14 @@ app = Flask(__name__)
 
 def handle_user_input(user_input):
     if "hello" in user_input:
-        speak("Hello sir, how are you")
+        print("Hello sir, how are you")
         response = "Greeting spoken"
     elif "play" in user_input:
         video_url = "https://youtu.be/dQw4w9WgXcQ"
         play_video(video_url)
         response = "Playing YouTube video"
     else:
-        speak("I don't understand.")
+        print("I don't understand.")
         response = "Command not recognized"
 
     return response
