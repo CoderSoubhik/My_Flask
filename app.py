@@ -31,6 +31,12 @@ def handle_user_input(user_input):
     elif "joyita" in user_input:
         print("Hello Joyita. How are you ?")
         response = "Hello Joyita. How are you ?"
+    elif "i am fine" in user_input:
+        print("that's great.")
+        response = "that's great."
+    elif "bye" in user_input:
+        print("Bye. Have a nice day")
+        response = "Bye. Have a nice day"
     #elif "play" in user_input:
         #video_url = "https://youtu.be/dQw4w9WgXcQ"
         #webbrowser.open(video_url)
