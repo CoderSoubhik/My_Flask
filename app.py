@@ -28,6 +28,9 @@ def handle_user_input(user_input):
     elif "thank you" in user_input:
         print("Thank you.")
         response = "Thank you."
+    elif "joyita" in user_input:
+        print("Hello Joyita. How are you ?")
+        response = "Hello Joyita. How are you ?"
     #elif "play" in user_input:
         #video_url = "https://youtu.be/dQw4w9WgXcQ"
         #webbrowser.open(video_url)
