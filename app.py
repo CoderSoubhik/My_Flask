@@ -31,6 +31,12 @@ def handle_user_input(user_input):
     elif "joyita" in user_input:
         print("Hello Joyita. How are you ?")
         response = "Hello Joyita. How are you ?"
+    elif "dhimanjay" in user input:
+        print("Hi! Dhimanjay. Nice to meet you.")
+        response = "Hi! Dhimanjay. Nice to meet you."
+    elif "good morning" in user input:
+        print("Good morning. It's a lovely day.")
+        response = "Good morning. It's a lovely day."
     elif "i am fine" in user_input:
         print("that's great.")
         response = "that's great."
